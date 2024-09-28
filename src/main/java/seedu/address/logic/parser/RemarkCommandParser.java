@@ -17,6 +17,7 @@ public class RemarkCommandParser implements Parser<RemarkCommand> {
 
     /**
      * Creates a Remark Command.
+     *
      * @param args String containing the remark to be parsed.
      * @return RemarkCommand with the remark arguments.
      * @throws ParseException if there is incorrect formatting.

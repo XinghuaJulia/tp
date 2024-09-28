@@ -9,9 +9,18 @@ import seedu.address.logic.commands.RemarkCommand;
 import seedu.address.logic.parser.exceptions.ParseException;
 import seedu.address.model.person.Remark;
 
+/**
+ * Remark Command Parser parses the input string.
+ */
 public class RemarkCommandParser implements Parser<RemarkCommand> {
     private static final Prefix PREFIX_REMARK = new Prefix("/r");
 
+    /**
+     * Creates a Remark Command.
+     * @param args String containing the remark to be parsed.
+     * @return RemarkCommand with the remark arguments.
+     * @throws ParseException if there is incorrect formatting.
+     */
     public RemarkCommand parse(String args) throws ParseException {
         requireNonNull(args);
         ArgumentMultimap argMultimap = ArgumentTokenizer.tokenize(args,

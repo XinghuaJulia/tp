@@ -62,6 +62,7 @@ public class Person {
     public Set<Tag> getTags() {
         return Collections.unmodifiableSet(tags);
     }
+
     public Remark getRemark() {
         return remark;
     }

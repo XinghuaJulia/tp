@@ -295,7 +295,7 @@ We will be using the user input `edit 1 n/John Doe p/98765432 e/johnd@example.co
 
 <div markdown="span" class="alert alert-info">
 
-**Note**: At step 2, if the input is detected as invalid (either index is invalid or no arguments provided other than index), an error will be shown on the screen and the `EditCommand` object will NOT be created!.
+**Note**: At step 2, if the input is detected as invalid (either index is invalid or no arguments provided other than index), an error will be shown on the screen and the `EditCommand` object will NOT be created.
 </div>
 
 ---
@@ -304,7 +304,7 @@ We will be using the user input `edit 1 n/John Doe p/98765432 e/johnd@example.co
 
 #### **Feature**
 
-`schedule UDDER_INDEX st/DD-MM-YYYY HH:MM et/DD-MM-YYYY HH:MM l/LOCATION`
+`schedule INDEX st/DD-MM-YYYY HH:MM et/DD-MM-YYYY HH:MM l/LOCATION`
 
 #### **Feature Purpose**
 
@@ -366,7 +366,7 @@ The `deletem` command allows users to delete an existing `Meeting` from the `Add
 - `AddressBookParser`: Creates a `DeleteMeetingCommand` object based on the user input.
 
 ### Sequence of Action
-To understand how the `deletem` command works, here is a list of steps illustrating what occurs when `LogicManager#execute()` is invoked:
+To understand how the `deletem` command works, here is a list of steps illustrating what occurs when [`LogicManager#execute()` is invoked](#logic-component):
 
 We will be using the user input `deletem 1` as an example.
 
@@ -408,7 +408,7 @@ The `editm` command allows users to edit the details of an existing `Meeting` in
 - `AddressBookParser`: Creates an `EditMeetingCommand` object based on the user input.
 
 ### Sequence of Action
-To understand how the `editm` command works, here is a list of steps illustrating what occurs when `LogicManager#execute()` is invoked:
+To understand how the `editm` command works, here is a list of steps illustrating what occurs when [`LogicManager#execute()` is invoked](#logic-component):
 
 We will be using the user input `editm 1 l/Discussion Room 3 st/09-10-2024 13:00 et/09-10-2024 14:00` as an example.
 
@@ -426,7 +426,7 @@ We will be using the user input `editm 1 l/Discussion Room 3 st/09-10-2024 13:00
 
 **Note**: At step 2, if any arguments are missing, an error will be shown on the screen and the `EditMeetingCommand` object will NOT be created!
 
-</div>``
+</div>
 
 --------------------------------------------------------------------------------------------------------------------
 

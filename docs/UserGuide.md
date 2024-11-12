@@ -44,7 +44,7 @@ You will _**never forget**_ the meaningful connections you make or the meetings 
 
 ![Ui](images/Ui4.png)
 
-1. Type the command in the command box at the bottom and press Enter to execute it. e.g. typing **`help`** and pressing Enter will open the help window.<br>
+1. Type the command in the Command Box at the bottom and press Enter to execute it. e.g. typing **`help`** and pressing Enter will open the help window.<br>
    Some example commands you can try:
 
    * `list` : Lists all contacts.
@@ -64,15 +64,13 @@ You will _**never forget**_ the meaningful connections you make or the meetings 
 **IMPORTANT:** Take note that you should **never** edit the _JSON file_ in your directory directly.
 </box>
 
-<box type="tip">
-
 ------------------------------------
+
 ### Glossary
 
 * **Udder** refers to any type of user described below, which is either a mUdder or a brUdder
 * **brUdder** refers to peers or connections who are experiencing similar things as you
 * **mUdder** refers to mentor users or connections who are more experienced in a relevant field
-</box>
 
 
 --------------------------------------------------------------------------------------------------------------------

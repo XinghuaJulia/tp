@@ -215,9 +215,9 @@ We will be using the user input `add n/John Doe p/98765432 e/johnd@example.com a
 6. The execute method of `AddCommand` returns a `CommandResult` object which stores the data regarding the completion of the `AddCommand`.
 7. The UI reflects this new list with added `Person`.
 
-<div markdown="span" class="alert alert-info">:information_source: **Note**:
+<div markdown="span" class="alert alert-info">
 
-- At step 2, if the user does not have any arguments, an error will be shown on the screen and the `AddCommand` object will NOT be created!
+**Note**: At step 2, if the user does not have any arguments, an error will be shown on the screen and the `AddCommand` object will NOT be created!
 </div>
 
 ---
@@ -254,9 +254,9 @@ We will be using the user input `delete 1` as an example.
 6. The execute method of `DeleteCommand` returns a `CommandResult` object which stores the data regarding the completion of the `DeleteCommand`.
 7. The UI reflects this new list without the deleted `Person`.
 
-<div markdown="span" class="alert alert-info">:information_source: **Note**:
+<div markdown="span" class="alert alert-info">
 
-- At step 2, if input is detected as invalid, an error will be shown on the screen and the `DeleteCommand` object will NOT be created!
+**Note**: At step 2, if input is detected as invalid, an error will be shown on the screen and the `DeleteCommand` object will NOT be created!
 </div>
 
 ---
@@ -293,9 +293,9 @@ We will be using the user input `edit 1 n/John Doe p/98765432 e/johnd@example.co
 6. The execute method of `EditCommand` returns a `CommandResult` object which stores the data regarding the completion of the `EditCommand`.
 7. The UI reflects this updated list with the edited `Person`.
 
-<div markdown="span" class="alert alert-info">:information_source: **Note**:
+<div markdown="span" class="alert alert-info">
 
-- At step 2, if the input is detected as invalid (either index is invalid or no arguments provided other than index), an error will be shown on the screen and the `EditCommand` object will NOT be created!.
+**Note**: At step 2, if the input is detected as invalid (either index is invalid or no arguments provided other than index), an error will be shown on the screen and the `EditCommand` object will NOT be created!.
 </div>
 
 ---
@@ -337,9 +337,9 @@ We will be using the user input `schedule 1 l/The Terrace st/09-10-2024 09:00 et
 8. The execute method of `ScheduleCommand` returns a `CommandResult` object which stores the data regarding the completion of the `ScheduleCommand`.
 9. The UI updates to reflect this newly scheduled `Meeting`.
 
-<div markdown="span" class="alert alert-info">:information_source: **Note**:
+<div markdown="span" class="alert alert-info">
 
-- At step 2, if any arguments are missing, an error will be shown on the screen and the `ScheduleCommand` object will NOT be created!
+**Note**: At step 2, if any arguments are missing, an error will be shown on the screen and the `ScheduleCommand` object will NOT be created!
 
 </div>
 
@@ -380,9 +380,9 @@ We will be using the user input `deletem 1` as an example.
 8. The `execute` method of `DeleteMeetingCommand` returns a `CommandResult` object which stores the data regarding the completion of the `DeleteMeetingCommand`.
 9. The UI updates to reflect this updated list of meetings in the DetailPanel of the Udder if the affected `Person` is being displayed.
 
-<div markdown="span" class="alert alert-info">:information_source: **Note**:
+<div markdown="span" class="alert alert-info">
 
-- At step 2, if any arguments are missing, an error will be shown on the screen and the `DeleteMeetingCommand` object will NOT be created!
+**Note**: At step 2, if any arguments are missing, an error will be shown on the screen and the `DeleteMeetingCommand` object will NOT be created!
 
 </div>
 
@@ -422,9 +422,9 @@ We will be using the user input `editm 1 l/Discussion Room 3 st/09-10-2024 13:00
 8. The `execute` method of `EditMeetingCommand` returns a `CommandResult` object which stores the data regarding the completion of the `EditMeetingCommand`.
 9. The UI updates to display the revised list of meetings in the DetailPanel of the Udder if the associated `Person` is currently displayed.
 
-<div markdown="span" class="alert alert-info">:information_source: **Note**: 
+<div markdown="span" class="alert alert-info">
 
-- At step 2, if any arguments are missing, an error will be shown on the screen and the `EditMeetingCommand` object will NOT be created!
+**Note**: At step 2, if any arguments are missing, an error will be shown on the screen and the `EditMeetingCommand` object will NOT be created!
 
 </div>``
 
